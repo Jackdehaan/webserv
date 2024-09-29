@@ -96,7 +96,6 @@ int Webserv::execute(void)
 	struct epoll_event	eventList[MAX_EVENTS];
 
 	initalizeServers(addrlen);
-
 	while (!interrupted)
 	{
 		try
