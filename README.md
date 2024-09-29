@@ -2,7 +2,7 @@
 
 Webserv is an HTTP server built from scratch based on the features of Nginx. This project is part of the 42 Network curriculum and aims to provide hands-on experience with networking, HTTP protocols, multiplexing, and server management.
 
-![Terminal video](.content/terminalVideo)
+![Terminal video](.content/terminalVideo.webm)
 
 ## Features
 
