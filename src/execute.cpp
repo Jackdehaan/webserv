@@ -102,7 +102,6 @@ int Webserv::execute(void)
 		try
 		{
 			checkCGItimeouts();
-			logger.log(INFO, "Waiting for events...");
 			eventCount = epoll_wait(_epollFd, eventList, MAX_EVENTS, 1000);
 			for (int idx = 0; idx < eventCount && !interrupted; ++idx)
 			{

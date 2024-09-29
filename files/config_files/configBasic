@@ -1,5 +1,5 @@
 server {
-	listen localhost:8001
+	listen localhost:8000
 	client_body_size 20M
 
 	root files/response_files/
