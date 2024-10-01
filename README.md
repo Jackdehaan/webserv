@@ -2,7 +2,6 @@
 
 Webserv is an HTTP server built from scratch based on the features of Nginx. This project is part of the 42 Network curriculum and aims to provide hands-on experience with networking, HTTP protocols, multiplexing, and server management.
 
-![Terminal video](.content/terminalVideo.webm)
 
 ## Features
 
@@ -23,3 +22,12 @@ To compile and run Webserv, follow these steps:
    ```bash
    git clone git@github.com:Jackdehaan/webserv.git
    cd webserv
+
+2. **Compile Webserver**:
+   ```bash
+   make
+3. **Deploy Webserver**:
+   ```bash
+   ./webserv files/config_files/default.conf
+
+![Performance screenshot](.content/performance.png)
