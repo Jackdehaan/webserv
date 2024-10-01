@@ -30,4 +30,4 @@ To compile and run Webserv, follow these steps:
    ```bash
    ./webserv files/config_files/default.conf
 
-![Performance screenshot](.content/performance.png)
+![Performance screenshot](content/performance.png)
